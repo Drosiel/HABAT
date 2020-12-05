@@ -1,0 +1,22 @@
+.grid
+    display: flex
+    flex-wrap: wrap
+    border: 1px solid #E2E2E2
+    border-bottom: 0
+    &__item
+        flex: 0 0 calc( 100% / 3 )
+        border-bottom: 1px solid #E2E2E2
+        &:not(:nth-child(3n))
+            border-right: 1px solid #E2E2E2
+.card   
+    height: 311px
+    padding: 43px 30px 0 54px
+    display: flex
+    &__title
+        font: normal normal normal 24px/30px Arvo
+        margin-bottom: 30px
+    &__text
+        font: normal normal normal 16px/34px Prompt
+    &__logo
+        height: 90px
+        width: 90px
