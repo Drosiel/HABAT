@@ -11,9 +11,9 @@ export const Footer = () => {
 						<svg className='footer__icon'>
 							<use href={`${svg}#footerLogo`}></use>
 						</svg>
-						{/* <svg className='footer__icon'>
+						<svg className='footer__icon2'>
 							<use href={`${svg}#footerLogo2`}></use>
-						</svg> */}
+						</svg>
 					</div>
 				</div>
 
@@ -62,11 +62,17 @@ export const Footer = () => {
 								info@slikopleskarstvo-habat.si
 							</a>
 							<div className='contacts__FB'>
+								<svg className='contacts__FB-icon'>
+									<use href={`${svg}#facebook`}></use>
+								</svg>
 								Obiščite nas tudi na Facebooku
 							</div>
 						</div>
 						<div className='footer__about'>
-							Izdelava spletne strani in podpora
+							<div>Izdelava spletne strani in podpora</div>
+							<svg className='footer__about-icon'>
+								<use href={`${svg}#radian`}></use>
+							</svg>
 						</div>
 					</div>
 				</div>

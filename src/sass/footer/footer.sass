@@ -1,11 +1,15 @@
 .footer
+    position: relative
     height: 714px
     background: $main-color
     color: #ffffff
+    padding-top: 77px
     &__bottom
         display: flex
     &__left
-        width: 100%
+        flex: 1
+    &__right
+        width: 282px
     &__guide
         display: flex
         flex: 1 1 100%
@@ -21,14 +25,36 @@
         display: flex
         justify-content: flex-start
         height: auto
+        margin-bottom: 126px
+        padding-right: 20px
     &__contacts .contacts__tel
         color: $extra-color
         font: normal normal 300 36px/37px Prompt
     &__contacts .contacts__email
         color: #ffffff
-        display: inline-block
         font: normal normal normal 16px/16px Roboto
         width: 220px
         margin-bottom: 48px
     &__about
         color: #5987BB
+        display: flex
+        align-items: center
+        div
+            font: normal normal normal 13px/15px Roboto
+        &-icon
+            width: 175.118px
+            height: 26.571px
+            display: flex
+            flex: 0 1 100%
+    &__logo
+        margin-bottom: 71px
+    &__icon
+        width: 257px
+        height: 51.15px
+    &__icon2
+        position: absolute
+        width: 582px
+        height: 582px
+        top: 0
+        left: 143px
+        
